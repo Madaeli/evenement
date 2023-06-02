@@ -4,7 +4,7 @@ import { s } from "./App.stle";
 export default function App() {
       return(
             <SafeAreaProvider>
-                  <SafeAreaView>
+                  <SafeAreaView style = { s.app }>
                         <View style={s.header}>
                               <Text>Header</Text>
                         </View>
