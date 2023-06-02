@@ -7,7 +7,10 @@ export default function App() {
                         <View>
                               <Text>Header</Text>
                         </View>
+                        <View>
                               <Text>Body</Text>
+                        </View>
+                              
                         <View>
                               <Text>Footer</Text>
                         </View>
