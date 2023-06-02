@@ -6,7 +6,7 @@ export default function App() {
             <SafeAreaProvider>
                   <SafeAreaView style = { s.app }>
                         <View style={s.header}>
-                              <Text>Header</Text>
+                              <Text>HeaderTest</Text>
                         </View>
                         <View style={s.body}>
                               <Text>Body</Text>
