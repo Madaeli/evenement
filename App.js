@@ -4,7 +4,14 @@ export default function App() {
       return(
             <SafeAreaProvider>
                   <SafeAreaView>
-                        <Text>Hello</Text>
+                        <View>
+                              <Text>Header</Text>
+                        </View>
+                              <Text>Body</Text>
+                        <View>
+                              <Text>Footer</Text>
+                        </View>
+                            
                   </SafeAreaView>  
             </SafeAreaProvider>
                  
