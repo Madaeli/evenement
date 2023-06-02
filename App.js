@@ -1,17 +1,18 @@
 import { Text, View } from "react-native"
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { s } from "./App.stle";
 export default function App() {
       return(
             <SafeAreaProvider>
                   <SafeAreaView>
-                        <View>
+                        <View style={s.header}>
                               <Text>Header</Text>
                         </View>
-                        <View>
+                        <View style={s.body}>
                               <Text>Body</Text>
                         </View>
                               
-                        <View>
+                        <View style={s.footer}>
                               <Text>Footer</Text>
                         </View>
                             
